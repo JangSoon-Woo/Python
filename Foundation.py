@@ -38,8 +38,26 @@ a = "Hello"
 print(a)
 print(type(a))
 
+# 6
+
 b = """Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."""
 print(b)
+
+i = 5
+j = 10
+
+print(i + j)
+print(i - j)
+print(i * j)
+print(i % j)
+print(i / j)
+
+
+
+
+
+
+
