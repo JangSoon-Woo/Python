@@ -1,4 +1,4 @@
-# 
+#
 """
 주석
 주석
@@ -7,6 +7,7 @@
 
 # 1
 
+import random
 print("Hello, World!")
 
 # 2
@@ -25,9 +26,8 @@ print(type(x))
 print(type(y))
 print(type(z))
 
-#4
+# 4
 
-import random
 
 print(random.randrange(1, 100))
 
@@ -55,9 +55,16 @@ print(i * j)
 print(i % j)
 print(i / j)
 
+aa, ab, ac = "Orange", "Banana", "Cherry"
+print(aa)
+print(ab)
+print(ac)
+
+aaa = "awesome"
 
 
+def myfunc():
+    print("Python is " + aaa)
 
 
-
-
+myfunc()
