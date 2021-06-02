@@ -1,7 +1,4 @@
 N = int(input())
 
-for N in N:
-    print(N)
-
-    # 아직 실험중
-    
+for i in range(1,10):  # 1~9
+    print(N, '*', i, '=', n*i)
