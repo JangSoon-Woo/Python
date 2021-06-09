@@ -1,8 +1,6 @@
 t = int(input())
 
 for i in range(t):
-  print("*")
-  for j in range(i):
+    for j in range(0, i+1):
         print("*", end='')
-
-        # 미완
+    print()
