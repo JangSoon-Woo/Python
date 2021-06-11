@@ -1,7 +1,4 @@
 a = int(input())
 
-for i in range(a):
-    print()
-    for j in range(i):
-        print("*", end='')
-# 미완
+for i in range(1, a+1):
+    print(" "*(a-i) + "*"*i)
