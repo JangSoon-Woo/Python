@@ -3,4 +3,3 @@ c = list(map(int, input().split()))
 for i in c:
     if i < b:
         print(i, end=" ")
-# 미완
