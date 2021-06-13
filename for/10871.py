@@ -1,6 +1,6 @@
 a, b = map(int, input().split())
-
-for i in range(a):
+c = list(map(int, input().split()))
+for i in c:
     if i < b:
-        print(i)
+        print(i, end=" ")
 # 미완
