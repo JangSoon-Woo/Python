@@ -1,5 +1,6 @@
-a,b  = map(int, input().split())
-
-while 0<a and b<10:
-    print(a + b)
-    break
+while True:
+    try:
+        a,b  = map(int, input().split())
+        print(a+b)
+    except:
+        break
