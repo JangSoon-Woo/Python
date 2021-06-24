@@ -7,4 +7,4 @@ for i in range(C):
         if j > avg : 
             cnt += 1
             
-    print(str("%.3f" %round((cnt/N[0])*100, 3))+"%"
+    print(str("%.3f" %round((cnt/N[0])*100, 3))+"%")
