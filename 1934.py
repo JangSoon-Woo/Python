@@ -10,7 +10,7 @@ def GCD(a, b):
     return gcd(b % a, a) if a % b else a
 
 
-T = int(input())
+t = int(input())
 for i in range(t):
 
     a, b = map(int, input().split())
