@@ -8,6 +8,6 @@ for i in range(t):
     a = int(input())
     b = a // 2
     for j in range(b, 1, -1):
-        print(j, a - j)
-        break
-        # 미완
+        if sosu[a - j] == 0 and sosu[j] == 0:
+            print(j, a - j)
+            break
