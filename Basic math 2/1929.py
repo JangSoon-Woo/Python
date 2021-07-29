@@ -4,6 +4,8 @@ m, n = map(int, input().split())
 lst = [i for i in range(m, n+1)]
 lst = set(lst)
 
+if 1 in lst:
+    lst.remove(1)
 
 for i in range(2, int(math.sqrt(n) + 1)):
     j = 2
@@ -13,4 +15,5 @@ for i in range(2, int(math.sqrt(n) + 1)):
         j += 1
 lst = list(lst)
 lst.sort()
-# 미완?
+for item in lst:
+    print(item)
