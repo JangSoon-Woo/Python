@@ -1,3 +1,4 @@
+# 빠른 A+B
 import sys  # sys모듈 읽어들이기
 
 t = int(sys.stdin.readline())
