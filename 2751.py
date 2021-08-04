@@ -7,3 +7,4 @@ for _ in range(n):
 
 for i in sorted(num):
     print(i)
+# ?? 시간초과
