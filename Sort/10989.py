@@ -1,11 +1,11 @@
-N = int(input())
+# 시간초과
 
-check_list = [0] * 10000
-for i in range(N):
-    input_num = int(input())
-    check_list[input_num - 1] = check_list[input_num - 1] + 1
-
-for i in range(10000):
-    if check_list[i] != 0:
-        for j in range(check_list[i]):
-            print(i+1)
+import sys
+n = int(sys.stdin.readline())
+b = [0] * 10001
+for i in range(n):
+    b[int(sys.stdin.readline())] += 1
+for i in range(10001):
+    if b[i] != 0:
+        for j in range(b[i]):
+            print(i)
