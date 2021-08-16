@@ -1,19 +1,17 @@
-from math import gcd
+import sys
+
+input = sys.stdin.readline
 
 
-def LCM(a, b):
-    d = gcd
-    return int((a * b) / d)
+def gcd(a, b):
+    return gcd(b, a % b) if b else a
 
 
-def GCD(a, b):
-    return gcd(b % a, a) if a % b else a
+def lcm(a, b):
+    return a * b // gcd(a, b)
 
 
 t = int(input())
 for i in range(t):
-
     a, b = map(int, input().split())
-    print(LCM(a, b))
-
-# 런타임 에러
+    print(lcm(a, b))
